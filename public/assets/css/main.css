@@ -1,5 +1,8 @@
-@import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
+/* MOVED TO base.css /////////////////////////////////////////////////////////////////////////////////// */
+
+/* @import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600"); */
 
 /*
 	Prologue by HTML5 UP
@@ -72,9 +75,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* MOVED TO base.css ///////////////////////////////////////////////////////////////////////////////*/
+
 /* Basic */
 
-	html {
+	/* html {
 		box-sizing: border-box;
 	}
 
@@ -100,9 +105,11 @@ input, select, textarea {
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
-		}
+		} */
 
-	input, textarea, select {
+/* MOVED TO modules.css ////////////////////////////////////////////////////////////////// */
+
+	/* input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
@@ -177,9 +184,9 @@ input, select, textarea {
 		a:hover {
 			color: #E27689;
 			border-bottom-color: rgba(255, 255, 255, 0);
-		}
+		} */
 
-	sub {
+	/* sub {
 		position: relative;
 		top: 0.5em;
 		font-size: 0.8em;
@@ -212,7 +219,7 @@ input, select, textarea {
 
 /* Container */
 
-	.container {
+	/* .container {
 		margin: 0 auto;
 		max-width: 100%;
 		width: 1400px;
@@ -256,7 +263,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		}
+		} */ 
 
 /* Row */
 
@@ -2200,7 +2207,7 @@ input, select, textarea {
 			padding: 4em 0;
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 			text-align: center;
-			background-image: url("images/overlay.png");
+			/* background-image: url("images/overlay.png"); */
 		}
 
 			#main > section.dark {
@@ -2212,10 +2219,10 @@ input, select, textarea {
 					color: inherit;
 				}
 
-				#main > section.dark strong {
-					color: #fff;
+				/* #main > section.dark strong {
+					color: red;
 					border-color: inherit;
-				}
+				} */
 
 				#main > section.dark a {
 					color: #fff;
@@ -2232,10 +2239,11 @@ input, select, textarea {
 				background-position: center center;
 			}
 
-			#main > section.one {
+			/* #main > section.one {
 				background-color: #81918E;
 				background-image: url("../../images/banner.jpg");
-			}
+				
+			} */
 
 			#main > section.two {
 				background-color: #f5fafa;
